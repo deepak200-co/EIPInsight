@@ -52,34 +52,36 @@ const Highlight = () => {
     ];
 
     return (
-        <Box as="section" py={16} px={6} bg={"#05070a"} color={"white"}>
-            <Stack direction={"column"} alignItems={"center"} gap={3} pt={6}>
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1 }}
-                >
-                    <Heading textAlign="center" as="h2" size="2xl" fontWeight="bold">
-                        Highlights
-                    </Heading>
-                </motion.div>
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1, delay: 0.2 }}
-                >
-                    <Text
-                        mt={2}
-                        fontSize={{ base: "sm", md: "lg" }}
-                        textAlign="center"
-                        width={{ md: "80%", lg: "60%" }}
-                        color="gray.300"
+        <Box as="section" py={16} px={6} bg={"#05070a"} color={"white"} textAlign="center">
+            <Box maxW="800px" mx="auto">
+                <Stack direction={"column"} alignItems={"center"} gap={3} pt={6} textAlign="center">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1 }}
                     >
-                        Experience unmatched performance, reliability, and innovation. Benefit from seamless efficiency,
-                        constant updates, and responsive support, all designed to enhance your productivity and success.
-                    </Text>
-                </motion.div>
-            </Stack>
+                        <Heading as="h2" size="2xl" fontWeight="bold">
+                            Highlights
+                        </Heading>
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1, delay: 0.2 }}
+                    >
+                        <Text
+                            mt={2}
+                            fontSize={{ base: "sm", md: "lg" }}
+                            maxW="700px"
+                            mx="auto"
+                            color="gray.300"
+                        >
+                            Experience unmatched performance, reliability, and innovation. Benefit from seamless efficiency,
+                            constant updates, and responsive support, all designed to enhance your productivity and success.
+                        </Text>
+                    </motion.div>
+                </Stack>
+            </Box>
 
             <Box p={3} maxW="1200px" mt={8} mx="auto">
                 <Grid templateColumns="repeat(auto-fit, minmax(300px, 1fr))" gap={6}>
@@ -90,7 +92,8 @@ const Highlight = () => {
                             p={6}
                             display="flex"
                             flexDirection="column"
-                            alignItems="start"
+                            alignItems="center"
+                            textAlign="center"
                             bg={"#0b0e14"}
                             borderColor={"gray.800"}
                             borderWidth={1}
