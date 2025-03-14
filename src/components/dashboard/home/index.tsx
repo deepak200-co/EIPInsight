@@ -14,7 +14,6 @@ import {
 import {FiSearch} from "react-icons/fi";
 import OverView from "@components/dashboard/home/OverView";
 import Category from "@components/dashboard/home/Category";
-import Status from "@components/dashboard/home/Status";
 
 const Home = () => {
     return (
@@ -56,7 +55,6 @@ const Home = () => {
 
             <OverView/>
             <Category/>
-            <Status/>
         </Box>
     );
 }

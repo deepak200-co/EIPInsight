@@ -44,7 +44,7 @@ export const barOptions: ChartOptions<"bar"> = {
   responsive: true,
   plugins: {
     legend: {
-      position: "top", // Ensure this is a valid value: "top" | "bottom" | "left" | "right"
+      position: "top", 
     },
   },
   scales: {
