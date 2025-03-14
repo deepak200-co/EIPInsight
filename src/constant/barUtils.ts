@@ -1,3 +1,5 @@
+import { ChartOptions } from "chart.js";
+
 export const barData = {
     labels: ["January", "February", "March", "April", "May"],
     datasets: [
@@ -36,28 +38,26 @@ export const barData = {
     ],
 };
 
-export const barOptions = {
-    responsive: true,
-    plugins: {
-        legend: {
-            position: "top",
-        },
+
+export const barOptions: ChartOptions<"bar"> = {
+  maintainAspectRatio: false,
+  responsive: true,
+  plugins: {
+    legend: {
+      position: "top", // Ensure this is a valid value: "top" | "bottom" | "left" | "right"
     },
-    scales: {
-        x: {
-            stacked: true,
-            grid: {
-                color: "rgba(200, 200, 200, 0.3)",  
-            },
-        },
-        y: {
-            stacked: true,
-            beginAtZero: true,
-            grid: {
-                color: "rgba(200, 200, 200, 0.3)",
-            },
-        },
+  },
+  scales: {
+    x: {
+      stacked: true,
+      grid: { color: "#e0e0e0" },
     },
+    y: {
+      stacked: true,
+      beginAtZero: true,
+      grid: { color: "#e0e0e0" },
+    },
+  },
 };
 
 export const barCardData = [

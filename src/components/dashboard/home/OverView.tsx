@@ -77,7 +77,7 @@ const OverView = () => {
                             </Tag>
                         </Flex>
                         <Box height="300px">
-                            <BarChart data={barData} options={{ ...barOptions, maintainAspectRatio: false }} />
+                        <BarChart data={barData} options={barOptions} />
                         </Box>
                     </Box>
                 </GridItem>

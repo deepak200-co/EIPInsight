@@ -7,7 +7,6 @@ import {
     SimpleGrid,
     Stack,
     Text,
-    useColorModeValue,
     VisuallyHidden,
 } from '@chakra-ui/react'
 import { ReactNode } from 'react'

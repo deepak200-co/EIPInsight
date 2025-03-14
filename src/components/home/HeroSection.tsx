@@ -1,5 +1,5 @@
 
-import { Box, Button, Center, Flex, Heading, Stack, Text } from "@chakra-ui/react";
+import { Box, Button, Heading, Stack, Text } from "@chakra-ui/react";
 import { FaPlus, FaRegBookmark } from "react-icons/fa";
 
 

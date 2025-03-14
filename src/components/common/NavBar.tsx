@@ -17,7 +17,7 @@ import {
     useColorModeValue,
     useDisclosure,
 } from '@chakra-ui/react';
-import {ChevronDownIcon, CloseIcon, HamburgerIcon, MoonIcon, SunIcon, SearchIcon} from '@chakra-ui/icons';
+import { CloseIcon, HamburgerIcon, MoonIcon, SunIcon, SearchIcon} from '@chakra-ui/icons';
 import {FaGithub} from "react-icons/fa";
 import React, {useState} from "react";
 
