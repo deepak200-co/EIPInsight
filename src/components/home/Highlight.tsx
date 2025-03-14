@@ -16,37 +16,37 @@ const Highlight = () => {
         {
             title: "Analytics",
             description:
-                "Gain valuable insights through advanced analytics to drive informed decisions and optimize your strategy.",
+            " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget egestas mi. Donec molestie ligula eget gravida egestas.",
             icon: MdAssessment,
         },
         {
             title: "Editors Leaderboard",
             description:
-                "Highlight top contributors with the Editors Leaderboard, encouraging active participation and fostering a competitive environment.",
+            " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget egestas mi. Donec molestie ligula eget gravida egestas.",
             icon: MdLeaderboard,
         },
         {
             title: "Boards",
-            description:
-                "Organize tasks and streamline teamwork with customizable boards that allow smooth collaboration and progress tracking.",
+            description:      
+          " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget egestas mi. Donec molestie ligula eget gravida egestas.",
             icon: MdGridOn,
         },
         {
             title: "Search By Author",
             description:
-                "Quickly find content or contributions by specific authors, saving time and enhancing your ability to access relevant information.",
+            " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget egestas mi. Donec molestie ligula eget gravida egestas.",
             icon: MdPersonSearch,
         },
         {
             title: "All EIPs",
             description:
-                "Explore all Ethereum Improvement Proposals (EIPs) in one place, keeping you up to date with the latest changes and innovations.",
+                " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget egestas mi. Donec molestie ligula eget gravida egestas.", 
             icon: MdDescription,
         },
         {
             title: "EIP Proposal Builder",
             description:
-                "Easily create and submit EIP proposals with our intuitive builder, streamlining the proposal process and encouraging contribution.",
+                " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget egestas mi. Donec molestie ligula eget gravida egestas.  ",
             icon: MdBuild,
         },
     ];
